@@ -3,37 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Портфолио</title>
+    <style>
+        body { 
+
+        }
+        header { 
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+        content { 
+            display: flex;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+        }
+        /* a{ 
+            text-decoration: none;
+            color: aquamarine;
+        }
+        p { 
+            color: aquamarine;
+        }
+        h3{ 
+            color: aquamarine;
+        } */
+    </style>
 </head>
 <body>
-    <header>
+    <header style="display: grid; ">
         <h1>Мое портфолио</h1>
-        <p>Разработчик | Технологии: </p>
+        <p>Разработчик | Технологии: HTML CSS JS React</p>
     </header>
-    <div class="project">
-        <h3>Верстка сайта для компании "ICANFLY"</h3>
-        <p>Описание проекта</p>
-        <a href="https://github.com/trippythak1d1/airport">Код на GitHub</a>
-        <a href="https://trippythak1d1.github.io/airport/">Демо</a>
+    <div class="content" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+        <div class="project">
+            <h3>Верстка сайта для компании "ICANFLY"</h3>
+            <p>Описание проекта</p>
+            <a href="https://github.com/trippythak1d1/airport">Код на GitHub</a>
+            <a href="https://trippythak1d1.github.io/airport/">Демо</a>
+        </div>
+        <div class="project">
+            <h3>Верстка по макету "сайт про Космос"</h3>
+            <p>Описание проекта</p>
+            <a href="https://github.com/trippythak1d1/kosmos">Код на GitHub</a>
+            <a href="https://trippythak1d1.github.io/kosmos/">Демо</a>
+        </div>
+        <div class="project">
+            <h3>Верстка по макету "Столовка"</h3>
+            <p>Описание проекта</p>
+            <a href="https://github.com/trippythak1d1/stolovoya" target="_blank">Код на GitHub</a>
+            <a href="https://trippythak1d1.github.io/stolovoya/">Демо</a>
+        </div>
+        <div class="project">
+            <h3>Верстка по макету "ПолитехШоп"</h3>
+            <p>Описание проекта</p>
+            <a href="https://github.com/username/project1">Код на GitHub</a>
+            <a href="https://username.github.io/project1/">Демо</a>
+        </div>
     </div>
-    <div class="project">
-        <h3>Верстка по макету "сайт про Космос"</h3>
-        <p>Описание проекта</p>
-        <a href="https://github.com/trippythak1d1/kosmos">Код на GitHub</a>
-        <a href="https://trippythak1d1.github.io/kosmos/">Демо</a>
-    </div>
-    <div class="project">
-        <h3>Верстка по макету "Столовка"</h3>
-        <p>Описание проекта</p>
-        <a href="https://github.com/trippythak1d1/stolovoya" target="_blank">Код на GitHub</a>
-        <a href="https://trippythak1d1.github.io/stolovoya/">Демо</a>
-    </div>
-    <div class="project">
-        <h3>Верстка по макету "ПолитехШоп"</h3>
-        <p>Описание проекта</p>
-        <a href="https://github.com/username/project1">Код на GitHub</a>
-        <a href="https://username.github.io/project1/">Демо</a>
-    </div>
-    
 </body>
 </html>
