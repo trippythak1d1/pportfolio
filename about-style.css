@@ -1,0 +1,153 @@
+body { 
+    margin: 0;
+}
+
+/* main */
+
+main { 
+    display: flex;
+
+}
+
+/* header */
+
+.tg-use { 
+    color: #EAE112;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+}
+
+header { 
+    /* height: 92vh; */
+    background-color: #0E0E0E;
+    display: grid;
+    padding: 39px 37.5px;
+}
+
+.description-nav { 
+    height: fit-content;
+    display: grid;
+    gap: 140px;
+}
+
+nav { 
+    display: grid;
+    gap: 30px;
+}
+
+.focus-navigate { 
+    color: #EAE112;
+}
+
+nav a {
+    width: fit-content;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+nav a:hover { 
+    color: #EAE112;
+    transition: 280ms ease-in;
+}
+
+/* main */
+
+.hero-page {
+    padding: 78px 0;
+    gap: 70px; 
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+
+.content { 
+    display: grid;
+    gap: 70px;
+    justify-items: center;
+}
+.description-content { 
+    max-width: 803px;
+    display: grid;
+    gap: 10px;
+}
+
+.page-header { 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.page-subtext { 
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.about-page { 
+    display: flex;
+    gap: 71px;
+}
+
+.about-content { 
+    display: grid;
+    gap: 20px;
+}
+
+.name-about { 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #EAE112;
+}
+
+.profession { 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.about { 
+    max-width: 649px;
+}
+
+.about p { 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin: 0;
+}
+/* my-stack */
+.my-stack { 
+    display: grid;
+    gap: 20px;
+}
+
+.about-stack { 
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #EAE112;
+}
+
+.stack-logo { 
+    display: flex;
+    gap: 45px;
+}
